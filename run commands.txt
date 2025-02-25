@@ -6,3 +6,12 @@ sudo apt install wine64 wine32
 wine --version
 
 wine ./TOUCHGFX.exe
+
+libgcc_s_dw2-1.dll
+libstdc++-6.dll
+libwinpthread-1.dll
+
+
+check for versions :
+file TOUCHGFX.exe
+file libstdc++-6.dll
